@@ -206,7 +206,7 @@
             bindings = <
                 &kp EQUAL  &kp N1        &kp N2        &kp N3         &kp N4         &kp N5        &tog KEYPAD                                                 &mo MOD    &kp N6  &kp N7         &kp N8         &kp N9        &kp N0           &kp MINUS
                 &kp TAB    &kp Q         &kp W         &kp E          &kp R          &kp T         &to QWERTYP                                                 &kp PSCRN  &kp Y   &kp U          &kp I          &kp O         &kp P            &kp BSLH
-                &kp ESC    &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F  &lt KEYPAD G  &to DVORAKP  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp INS    &kp H   &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L  &hm_r RGUI SEMI  &kp SQT
+                &kp ESC    &kp LGUI A    &kp S         &kp D          &kp F          &lt KEYPAD G  &to DVORAKP  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp INS    &kp H   &kp J          &kp K          &kp L         &kp SEMI         &kp SQT
                 &kp LSHFT  &kp Z         &kp X         &kp C          &kp V          &kp B                                 &kp HOME      &kp PG_UP                        &kp N   &kp M          &kp COMMA      &kp DOT       &kp FSLH         &kp RSHFT
                 &mo FN     &kp GRAVE     &kp CAPS      &kp LEFT       &kp RIGHT                    &kp BSPC     &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP         &kp DOWN       &kp LBKT      &kp RBKT         &mo FN
             >;
@@ -216,7 +216,7 @@
             bindings = <
                 &pgrave  &pkp_n1       &lkp_n2       &lkp_n3        &lkp_n4        &akp_n5       ______                                      ______  &ekp_n6  &rkp_n7        &rkp_n8        &rkp_n9       &skp_n0          &eprcnt
                 ______   &kp Q         &kp W         &kp E          &kp R          &kp T         ______                                      ______  &kp Y    &kp U          &kp I          &kp O         &kp P            &bhash
-                ______   &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F  &lt KEYPAD G  ______  ______  ______      ______  ______  ______  &kp H    &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L  &hm_r RGUI SEMI  &kp MINUS
+                ______   &kp A         &kp S         &kp D          &kp F          &lt KEYPAD G  ______  ______  ______      ______  ______  ______  &kp H    &kp J          &kp K          &kp L         &kp SEMI         &kp MINUS
                 ______   &kp Z         &kp X         &kp C          &kp V          &kp B                         ______      ______                  &kp N    &kp M          &kp COMMA      &kp DOT       &kp FSLH         ______
                 ______   &dtilde       ______        ______         ______                       ______  ______  ______      ______  ______  ______           ______         ______         &kp SQT       &acaret          ______
             >;
@@ -226,7 +226,7 @@
             bindings = <
                 &pgrave  &pkp_n1       &lkp_n2       &lkp_n3        &lkp_n4        &akp_n5       ______                                      ______  &ekp_n6  &rkp_n7        &rkp_n8        &rkp_n9       &skp_n0       &eprcnt
                 ______   &kp SEMI      &kp COMMA     &kp DOT        &kp P          &kp Y         ______                                      ______  &kp F    &kp G          &kp C          &kp R         &kp L         &bhash
-                ______   &hm_l LGUI A  &hm_l LALT O  &hm_l LCTRL E  &hm_l LSHFT U  &lt KEYPAD I  ______  ______  ______      ______  ______  ______  &kp D    &hm_r RSHFT H  &hm_r RCTRL T  &hm_r RALT N  &hm_r RGUI S  &kp MINUS
+                ______   &kp A         &kp O         &kp E          &kp U          &lt KEYPAD I  ______  ______  ______      ______  ______  ______  &kp D    &kp H          &kp T          &kp N         &kp S         &kp MINUS
                 ______   &kp SQT       &kp Q         &kp J          &kp K          &kp X                         ______      ______                  &kp B    &kp M          &kp W          &kp V         &kp Z         ______
                 ______   &dtilde       ______        ______         ______                       ______  ______  ______      ______  ______  ______           ______         ______         &kp FSLH      &acaret       ______
             >;
@@ -236,7 +236,7 @@
             bindings = <
                 &pgrave  &pkp_n1       &lkp_n2       &lkp_n3        &lkp_n4        &akp_n5       ______                                      ______  &ekp_n6  &rkp_n7        &rkp_n8        &rkp_n9       &skp_n0       &eprcnt
                 ______   &kp Q         &kp W         &kp F          &kp P          &kp B         ______                                      ______  &kp J    &kp L          &kp U          &kp Y         &kp SEMI      &bhash
-                ______   &hm_l LGUI A  &hm_l LALT R  &hm_l LCTRL S  &hm_l LSHFT T  &lt KEYPAD G  ______  ______  ______      ______  ______  ______  &kp M    &hm_r RSHFT N  &hm_r RCTRL E  &hm_r RALT I  &hm_r RGUI O  &kp MINUS
+                ______   &kp A         &kp R         &kp S          &kp T          &lt KEYPAD G  ______  ______  ______      ______  ______  ______  &kp M    &kp N          &kp E          &kp I         &kp O         &kp MINUS
                 ______   &kp Z         &kp X         &kp C          &kp D          &kp V                         ______      ______                  &kp K    &kp H          &kp COMMA      &kp DOT       &kp FSLH      ______
                 ______   &dtilde       ______        ______         ______                       ______  ______  ______      ______  ______  ______           ______         ______         &kp SQT       &acaret       ______
             >;
