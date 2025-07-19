@@ -95,7 +95,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "star_kp_n0";
             #binding-cells = <0>;
-        bindings = <&kp STAR>, <&kp N0>;
+            bindings = <&kp STAR>, <&kp N0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         eprcnt: excl_prcnt {
